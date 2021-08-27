@@ -8,7 +8,7 @@ export const texto=/\".+[^.]+\"/;
 //expressao
 export const expression=new RegExp(`(${letter}|${digit})+\s*${operador}\s*(${letter}|${digit})+`,"img");
 //id
-export const identifier=new RegExp(`(${letter}+\_?${digit}*)+`,"igm");
+export const identifier=new RegExp(`(${letter}|\_)+(\_|${letter}|${digit})*`,"igm");
 //special symbol
 export const special_symbol=new RegExp(`${symbols}`,"img")
 //simple type
