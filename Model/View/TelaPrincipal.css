@@ -1,0 +1,176 @@
+body{
+    background: transparent;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    zoom:100%;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    
+}
+
+window{
+    
+    zoom:110%;
+}
+
+
+#side{
+    margin-right:0px;
+    margin-top: 0px;
+    background: #503a3c ;
+    width: 15%;
+    height:800px ;
+    margin-bottom: 0px;
+    color: rgb(175, 147, 111);
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+#mae{
+    position: relative;
+    margin-top: 0px;
+    width: 85%;
+    height: 800px;
+    background: #2B1B1B ;
+    border: 2px solid #5e6d6a ;
+
+}
+
+#consola{
+
+    background: cadetblue;
+    ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 38%;
+}
+
+#output_consola{
+    padding-left: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 97%;
+    height: 92%;
+    background: darkslategrey;
+    color: white;
+    display: block;
+    overflow: auto;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#codigo{
+
+    width: 99.5%;
+    height: 60%;
+    position: absolutex;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    background: none;
+    color: burlywood;
+    font-family: cursive;
+    cursor: auto;
+    overflow-wrap: break-word;
+    margin-left: 22px;
+    
+}
+
+#cabecalho_codigo{
+
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: cadetblue;
+    display: inline;
+    color: burlywood;
+    font-family: cursive;
+    font-size: 20px;
+    z-index:100;
+    padding-top: 2px;
+}
+
+
+#linhas{
+   
+    width: 20px;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    bottom: 2000;
+    top:40;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 41px;
+    border-style: none;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    color: rgb(175, 147, 111);
+    
+}
+
+h5{
+    padding: 8px;
+    width: 80px;
+    height: 30px;
+    display: inline;
+    font-size: 40px;
+}
+
+.icone{
+   
+   float: right;
+   width: 15px;
+   height: 15px;
+}
+
+#cabecalho_side{
+
+    width: 100%;
+    height: 20px;
+    padding-bottom: 60px;
+    
+}
+
+#ic_abrir_side{
+    
+    width: 18px;
+    height: 20px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 50px;
+    margin-left: 8px;
+    display: none;
+
+}
+
+
+.botoes{
+   
+    cursor: pointer;
+   
+}
+
+@media screen and (max-width: 1000px) {
+    #side{
+      display: none;
+    }
+    #mae{
+        width: 100%;
+    }
+    #consola{
+
+        height: 46%;
+    }
+  }
+
+
+
+
